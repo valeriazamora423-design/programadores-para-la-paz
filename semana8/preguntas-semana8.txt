@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 8 - INTEGRACIÓN HTML + CSS + JS
+
+Pregunta 1: ¿Cómo se enlaza un archivo CSS externo a un HTML?
+Respuesta: Con la etiqueta <link> dentro de <head>: <link rel="stylesheet" href="estilos.css">
+
+Pregunta 2: ¿Cómo se enlaza un archivo JavaScript externo a un HTML?
+Respuesta: Con la etiqueta <script> antes de cerrar </body>: <script src="script.js"></script>
+
+Pregunta 3: ¿Qué es el DOM (Document Object Model)?
+Respuesta: Es una representación del documento HTML como una estructura de árbol que JavaScript puede manipular para cambiar contenido, estilos y estructura.
+
+Pregunta 4: ¿Qué método se usa para seleccionar un elemento del DOM?
+Respuesta: document.querySelector() selecciona el primer elemento que coincide con un selector CSS, y document.getElementById() selecciona por ID.

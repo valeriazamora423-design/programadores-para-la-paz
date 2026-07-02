@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Final - Valeria Zamora</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { background: white; padding: 30px; border-radius: 10px 10px 0 0; text-align: center; }
+        header h1 { color: #2c3e50; font-size: 2.5em; }
+        header p { color: #7f8c8d; font-size: 1.2em; }
+        nav { background: #2c3e50; padding: 15px; }
+        nav ul { display: flex; justify-content: center; gap: 30px; list-style: none; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #3498db; }
+        main { background: white; padding: 30px; border-radius: 0 0 10px 10px; }
+        section { margin-bottom: 30px; }
+        h2 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; margin-bottom: 20px; }
+        .card { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-bottom: 15px; border-left: 4px solid #3498db; }
+        footer { text-align: center; padding: 20px; color: white; margin-top: 20px; }
+        button { background: #3498db; color: white; border: none; padding: 12px 25px; border-radius: 5px; cursor: pointer; font-size: 16px; transition: 0.3s; }
+        button:hover { background: #2980b9; transform: scale(1.05); }
+        #demo { margin-top: 15px; padding: 15px; border-radius: 5px; text-align: center; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Valeria Zamora</h1>
+            <p>Programadores para la Paz - Módulo 01</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Sobre mí</h2>
+                <div class="card">
+                    <p>Soy Valeria, estudiante del programa Programadores para la Paz
+                    en la Universidad de Cartagena. Este es mi proyecto final del Módulo 01,
+                    donde integro HTML, CSS y JavaScript.</p>
+                </div>
+            </section>
+            <section>
+                <h2>Mis habilidades</h2>
+                <div class="card">
+                    <ul>
+                        <li>HTML5 - Estructura semántica</li>
+                        <li>CSS3 - Diseño responsivo</li>
+                        <li>JavaScript - Interactividad</li>
+                        <li>Git/GitHub - Control de versiones</li>
+                        <li>Terminal Linux - Comandos básicos</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Demostración interactiva</h2>
+                <div style="text-align:center">
+                    <button onclick="mostrarHora()">Mostrar hora actual</button>
+                    <button onclick="contarVisitas()">Contar visita</button>
+                    <div id="demo">¡Haz clic en un botón!</div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 - Valeria Zamora - Programadores para la Paz</p>
+        </footer>
+    </div>
+
+    <script>
+        function mostrarHora() {
+            let ahora = new Date();
+            document.getElementById('demo').innerHTML = 'Hora actual: ' + ahora.toLocaleTimeString();
+            document.getElementById('demo').style.background = '#d4edda';
+        }
+        let visitas = 0;
+        function contarVisitas() {
+            visitas++;
+            document.getElementById('demo').innerHTML = 'Has hecho clic ' + visitas + ' veces';
+            document.getElementById('demo').style.background = '#cce5ff';
+        }
+    </script>
+</body>
+</html>

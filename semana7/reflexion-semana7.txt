@@ -1,0 +1,17 @@
+REFLEXIÓN SEMANA 7 - CICLOS Y ARRAYS
+
+Los arrays y los ciclos trabajan juntos para procesar colecciones de
+datos de manera eficiente. Un array almacena la información y un ciclo
+permite recorrerla sin tener que escribir código repetitivo.
+
+Con el ciclo while aprendí a ejecutar código mientras se cumpla una
+condición. Es útil cuando no sé exactamente cuántas iteraciones necesito.
+El ciclo for, en cambio, es ideal cuando conozco el número de repeticiones.
+
+Recorrer arrays con for me permitió acceder a cada elemento y realizar
+operaciones como sumar valores, buscar elementos o filtrar datos. Los
+métodos push() y pop() son útiles para agregar o quitar elementos.
+
+Comprendí que los ciclos son una herramienta poderosa para automatizar
+tareas repetitivas y procesar grandes cantidades de datos de forma
+rápida y eficiente. Son fundamentales en cualquier programa.

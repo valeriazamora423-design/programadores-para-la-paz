@@ -1,0 +1,42 @@
+// Ejemplo de ciclos y arrays en JavaScript
+
+// Declarar un array
+let frutas = ["Manzana", "Banana", "Naranja", "Uva", "Pera"];
+
+// Acceder a elementos
+console.log(frutas[0]); // Manzana
+console.log(frutas.length); // 5
+
+// Agregar elementos
+frutas.push("Mango");    // al final
+frutas.unshift("Fresa"); // al inicio
+
+// Quitar elementos
+frutas.pop();      // último
+frutas.shift();    // primero
+
+// Ciclo while
+let i = 0;
+while (i < frutas.length) {
+    console.log("Fruta:", frutas[i]);
+    i++;
+}
+
+// Ciclo for
+let suma = 0;
+let numeros = [10, 20, 30, 40, 50];
+for (let j = 0; j < numeros.length; j++) {
+    suma += numeros[j];
+}
+console.log("Suma total:", suma);
+
+// for...of (forma moderna)
+for (let fruta of frutas) {
+    console.log(fruta.toUpperCase());
+}
+
+// Métodos útiles
+let cuadrados = numeros.map(n => n * n);
+let mayores = numeros.filter(n => n > 25);
+console.log(cuadrados);
+console.log(mayores);

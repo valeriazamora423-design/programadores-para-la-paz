@@ -1,0 +1,17 @@
+REFLEXIÓN SEMANA 3 - HTML Y ESTRUCTURA WEB
+
+El HTML es el esqueleto de cualquier página web. Sin él, no existiría la
+estructura que permite mostrar contenido en internet de forma organizada.
+
+Aprender HTML me ha permitido entender cómo se construyen los sitios web
+desde sus cimientos. Cada etiqueta tiene un propósito específico y juntas
+forman la base sobre la cual se aplican estilos y funcionalidades.
+
+Es fascinante ver cómo algo que parece tan simple como una etiqueta <p>
+o <h1> puede transformar texto plano en una página web estructurada y
+navegable. Entender la jerarquía del DOM y la semántica HTML es clave
+para crear sitios accesibles y bien organizados.
+
+Esta semana comprendí que un buen desarrollador web no solo escribe código
+funcional, sino que construye estructuras claras y semánticas que cualquier
+navegador y cualquier persona puedan interpretar correctamente.

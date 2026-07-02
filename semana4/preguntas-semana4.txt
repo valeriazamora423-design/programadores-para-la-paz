@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 4 - CSS BÁSICO
+
+Pregunta 1: ¿Qué significa CSS y para qué sirve?
+Respuesta: Cascading Style Sheets (Hojas de Estilo en Cascada). Sirve para dar estilo y diseño visual a las páginas HTML, controlando colores, fuentes, márgenes, posicionamiento y más.
+
+Pregunta 2: ¿Cuáles son las tres formas de aplicar CSS a un documento HTML?
+Respuesta: CSS en línea (style="" dentro de una etiqueta), CSS interno (etiqueta <style> en el <head>), y CSS externo (archivo .css enlazado con <link>).
+
+Pregunta 3: ¿Qué es un selector en CSS?
+Respuesta: Un selector es el patrón que indica a qué elementos HTML se aplicarán los estilos. Por ejemplo, h1, .clase, #id.
+
+Pregunta 4: ¿Qué diferencia hay entre clase (class) e identificador (id) en CSS?
+Respuesta: Una clase (.clase) puede aplicarse a múltiples elementos, mientras que un id (#id) es único y solo debe usarse en un elemento por página.

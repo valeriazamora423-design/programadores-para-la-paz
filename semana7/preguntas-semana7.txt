@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 7 - CICLOS Y ARRAYS EN JAVASCRIPT
+
+Pregunta 1: ¿Qué es un array o lista en JavaScript?
+Respuesta: Es una estructura de datos que permite almacenar múltiples valores en una sola variable. Ej: let numeros = [1, 2, 3];
+
+Pregunta 2: ¿Cómo se accede a un elemento específico de un array?
+Respuesta: Usando el índice entre corchetes. Los índices empiezan en 0. Ej: array[0] para el primer elemento.
+
+Pregunta 3: ¿Qué hace el ciclo while?
+Respuesta: Ejecuta un bloque de código mientras una condición sea true. Ej: while (i < 10) { ... i++; }
+
+Pregunta 4: ¿Qué hace el ciclo for?
+Respuesta: Ejecuta un bloque de código un número determinado de veces. Tiene tres partes: inicialización, condición, incremento. Ej: for (let i = 0; i < 5; i++) { ... }

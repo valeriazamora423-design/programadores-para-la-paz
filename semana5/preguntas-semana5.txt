@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 5 - JAVASCRIPT BÁSICO
+
+Pregunta 1: ¿Qué es JavaScript y para qué se usa?
+Respuesta: Es un lenguaje de programación que permite agregar interactividad y dinamismo a las páginas web. Se ejecuta en el navegador del cliente.
+
+Pregunta 2: ¿Cómo se declara una variable en JavaScript?
+Respuesta: Con las palabras clave let, const o var. Ejemplo: let nombre = "Valeria"; const PI = 3.1416;
+
+Pregunta 3: ¿Cuáles son los tipos de datos básicos en JavaScript?
+Respuesta: number (números), string (cadenas de texto), boolean (true/false), null, undefined, object (objetos).
+
+Pregunta 4: ¿Qué operadores se usan para sumar, restar, multiplicar y dividir?
+Respuesta: + (suma), - (resta), * (multiplicación), / (división), % (módulo/resto).

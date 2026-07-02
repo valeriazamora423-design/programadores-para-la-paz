@@ -1,0 +1,17 @@
+REFLEXIÓN SEMANA 8 - INTEGRACIÓN WEB
+
+Esta semana aprendí cómo integrar HTML, CSS y JavaScript en un solo
+proyecto web funcional. Cada tecnología tiene un rol específico y juntas
+crean páginas web completas e interactivas.
+
+HTML proporciona la estructura, CSS el diseño visual y JavaScript la
+interactividad. Entender cómo se relacionan estos tres lenguajes es la
+base del desarrollo web frontend.
+
+El DOM es el puente entre HTML y JavaScript. Con métodos como
+querySelector puedo acceder a elementos de la página y modificarlos
+dinámicamente en respuesta a eventos como clics o teclado.
+
+Los eventos (click, submit, mouseover) permiten que la página reaccione
+a las acciones del usuario. Aprendí a usar addEventListener para asignar
+funciones a eventos de forma limpia y organizada.

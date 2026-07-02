@@ -1,0 +1,14 @@
+COMANDOS GIT UTILIZADOS EN LA SEMANA 3
+
+git init                    - Inicializar repositorio
+git clone URL               - Clonar repositorio remoto
+git status                  - Ver estado de archivos
+git add .                   - Agregar todos los cambios
+git add archivo.txt         - Agregar un archivo específico
+git commit -m "mensaje"     - Confirmar cambios
+git push origin main        - Subir cambios a GitHub
+git pull origin main        - Bajar cambios de GitHub
+git log                     - Ver historial de commits
+git branch                  - Ver ramas
+mkdir carpeta               - Crear directorio
+echo "texto" > archivo.txt  - Crear archivo con contenido

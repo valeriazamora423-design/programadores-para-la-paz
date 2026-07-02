@@ -1,0 +1,19 @@
+REFLEXIÓN SEMANA 4 - CSS Y DISEÑO WEB
+
+El CSS transforma por completo la apariencia de una página web. Sin CSS,
+el HTML se ve como texto plano sin formato, pero con unas pocas líneas de
+CSS podemos crear diseños atractivos y profesionales.
+
+Aprender a usar selectores, colores, fuentes y el modelo de caja (box model)
+me ha permitido entender cómo se construye visualmente un sitio web. El
+concepto de cascada es fundamental: los estilos se heredan y sobreescriben
+en un orden específico.
+
+Comprendí que separar el contenido (HTML) del estilo (CSS) es una buena
+práctica que facilita el mantenimiento y la escalabilidad de los proyectos.
+Usar CSS externo permite cambiar el diseño completo de un sitio modificando
+un solo archivo.
+
+El diseño responsivo también es clave hoy en día. Entender cómo usar
+media queries para adaptar el diseño a diferentes dispositivos es una
+habilidad esencial para cualquier desarrollador web moderno.

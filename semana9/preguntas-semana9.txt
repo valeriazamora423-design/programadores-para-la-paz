@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 9 - REPASO Y PROYECTO FINAL
+
+Pregunta 1: ¿Qué aprendiste en el Módulo 01?
+Respuesta: Aprendí fundamentos de programación web: HTML para estructurar contenido, CSS para diseñar, JavaScript para interactividad, uso de terminal y Git para control de versiones, y GitHub para publicar proyectos.
+
+Pregunta 2: ¿Cuál es la diferencia entre frontend y backend?
+Respuesta: Frontend es la parte visual que ve el usuario (HTML, CSS, JS en el navegador). Backend es la parte del servidor que procesa datos y lógica (PHP, Python, Node.js, bases de datos).
+
+Pregunta 3: ¿Qué es HTTP y cuáles son los métodos principales?
+Respuesta: HTTP es el protocolo de comunicación entre cliente y servidor. Los métodos principales son GET (obtener datos) y POST (enviar datos).
+
+Pregunta 4: ¿Por qué es importante verificar la información antes de compartirla?
+Respuesta: Porque compartir información falsa o fuera de contexto puede causar daños a personas y comunidades. La verificación responsable es parte de ser un ciudadano digital ético.

@@ -1,0 +1,17 @@
+REFLEXIÓN SEMANA 5 - INTRODUCCIÓN A JAVASCRIPT
+
+JavaScript es el lenguaje que da vida a las páginas web. Mientras HTML
+estructura el contenido y CSS lo estiliza, JS permite que el usuario
+interactúe con la página de formas dinámicas.
+
+Aprender a declarar variables y entender los tipos de datos es el primer
+paso para escribir cualquier programa. Comprendí que let y const son
+las formas modernas de declarar variables y que var ya no se recomienda.
+
+Los operadores aritméticos y de comparación son herramientas básicas
+que se usan constantemente. Pude practicar cómo realizar cálculos y
+comparar valores para tomar decisiones en el código.
+
+Me parece fascinante que con solo unas líneas de JavaScript se pueda
+hacer que una página responda a clics, valide formularios o muestre
+mensajes personalizados. Es un lenguaje muy poderoso y versátil.

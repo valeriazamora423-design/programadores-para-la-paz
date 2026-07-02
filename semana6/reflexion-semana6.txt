@@ -1,0 +1,16 @@
+REFLEXIÓN SEMANA 6 - CONDICIONALES JS
+
+Las estructuras condicionales son fundamentales en la programación porque
+permiten que el código tome decisiones basadas en condiciones específicas.
+
+Con if y else aprendí a controlar el flujo de un programa: si ocurre
+algo, haz esto; si no, haz esto otro. Esto abre un mundo de posibilidades
+para crear programas inteligentes que respondan a diferentes situaciones.
+
+El operador ternario me pareció muy útil para escribir condiciones simples
+en una sola línea. También comprendí la importancia de usar === en lugar
+de == para evitar errores de comparación (coerción de tipos).
+
+Los operadores lógicos && y || son herramientas poderosas para combinar
+múltiples condiciones. Entender cómo se evalúan (cortocircuito) es clave
+para escribir código eficiente y libre de errores.

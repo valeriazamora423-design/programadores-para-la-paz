@@ -1,0 +1,32 @@
+// Ejemplo de variables y operadores en JavaScript
+
+// Declaración de variables
+let nombre = "Valeria";
+let edad = 20;
+const pais = "Colombia";
+
+// Tipos de datos
+let mensaje = "Hola, mundo";    // string
+let cantidad = 42;               // number
+let esEstudiante = true;         // boolean
+let notas = [4.5, 3.8, 5.0];    // array
+
+// Operaciones aritméticas
+let suma = 10 + 5;
+let resta = 20 - 8;
+let multiplicacion = 6 * 7;
+let division = 15 / 3;
+
+// Concatenación de strings
+let saludo = "Hola, " + nombre + "!";
+let saludoModerno = `Hola, ${nombre}!`; // template string
+
+// Mostrar en consola
+console.log(saludo);
+console.log(`Edad: ${edad}`);
+console.log(`Suma: ${suma}`);
+
+// Entrada y salida básica
+alert("Bienvenida " + nombre);
+let color = prompt("¿Cuál es tu color favorito?");
+console.log("Color favorito:", color);

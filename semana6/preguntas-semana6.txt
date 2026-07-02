@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 6 - CONDICIONALES EN JAVASCRIPT
+
+Pregunta 1: ¿Qué estructura se usa para tomar decisiones en JavaScript?
+Respuesta: La estructura if / else if / else. Permite ejecutar diferentes bloques de código según una condición.
+
+Pregunta 2: ¿Qué operadores de comparación existen en JavaScript?
+Respuesta: == (igualdad), === (igualdad estricta), != (diferente), !== (diferente estricto), > (mayor), < (menor), >= (mayor o igual), <= (menor o igual).
+
+Pregunta 3: ¿Qué son los operadores lógicos?
+Respuesta: && (AND - ambas condiciones deben ser true), || (OR - al menos una debe ser true), ! (NOT - invierte el valor).
+
+Pregunta 4: ¿Qué hace el operador ternario?
+Respuesta: Es una forma abreviada de if/else: condición ? valor_si_true : valor_si_false;

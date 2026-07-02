@@ -1,0 +1,19 @@
+REFLEXIÓN SEMANA 9 - PROYECTO FINAL
+
+Este módulo me ha enseñado los fundamentos del desarrollo web desde cero.
+Empecé sin saber nada de programación y ahora puedo crear páginas web
+básicas con HTML, CSS y JavaScript, usar la terminal y Git, y publicar
+mis proyectos en GitHub.
+
+El pensamiento computacional y los algoritmos fueron el punto de partida
+para entender cómo resolver problemas de forma lógica y estructurada.
+Aprender a usar la terminal me dio control sobre el sistema de archivos.
+
+HTML y CSS me permitieron construir y diseñar páginas web, mientras que
+JavaScript les dio vida con interactividad. Los condicionales, ciclos y
+arrays son herramientas que usaré en todos mis proyectos futuros.
+
+Este es solo el comienzo de mi camino como desarrolladora. Me llevo
+bases sólidas y la motivación para seguir aprendiendo y creando. La
+tecnología puede ser una herramienta poderosa para generar cambios
+positivos en mi comunidad.

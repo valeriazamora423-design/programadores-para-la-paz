@@ -1,0 +1,13 @@
+PREGUNTAS SEMANA 3 - HTML BÁSICO
+
+Pregunta 1: ¿Qué significa HTML?
+Respuesta: HyperText Markup Language (Lenguaje de Marcado de Hipertexto)
+
+Pregunta 2: ¿Cuál es la estructura básica de un documento HTML?
+Respuesta: DOCTYPE html, html, head, title, body
+
+Pregunta 3: ¿Qué etiqueta se usa para un encabezado principal?
+Respuesta: <h1>
+
+Pregunta 4: ¿Cómo se crea un párrafo en HTML?
+Respuesta: Con la etiqueta <p>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Integrada</title>
+    <style>
+        body { font-family: Arial; margin: 20px; background: #f0f0f0; }
+        .card { background: white; padding: 20px; border-radius: 8px; max-width: 400px; margin: 0 auto; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        button { background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #2980b9; }
+        #mensaje { margin-top: 15px; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Hola, soy Valeria</h1>
+        <p id="saludo">Bienvenido a mi página interactiva</p>
+        <button id="btnSaludar">Saludar</button>
+        <button id="btnCambiar">Cambiar fondo</button>
+        <div id="mensaje"></div>
+    </div>
+
+    <script>
+        document.getElementById('btnSaludar').addEventListener('click', function() {
+            document.getElementById('mensaje').innerHTML = '¡Hola! Gracias por visitar mi página.';
+            document.getElementById('mensaje').style.background = '#d4edda';
+        });
+
+        document.getElementById('btnCambiar').addEventListener('click', function() {
+            document.body.style.background = '#e8f4f8';
+            document.getElementById('mensaje').innerHTML = '¡Fondo cambiado!';
+            document.getElementById('mensaje').style.background = '#cce5ff';
+        });
+    </script>
+</body>
+</html>
