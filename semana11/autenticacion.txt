@@ -1,0 +1,8 @@
+Explicación de autenticación - Semana 11
+===========================================
+
+El login es el proceso mediante el cual una aplicación verifica la identidad de un usuario antes de permitirle acceder a funcionalidades protegidas. Generalmente consiste en que el usuario ingrese un nombre de usuario o correo electrónico junto con una contraseña, y el sistema compara estos datos contra los almacenados de forma segura en la base de datos.
+
+Algunas rutas deben estar protegidas porque pueden contener información privada, registros internos del sistema, datos personales de los usuarios o acciones administrativas que no deberían estar disponibles para cualquier persona. Por ejemplo, la lista de todos los reportes o la gestión de usuarios debería requerir autenticación previa.
+
+No se deben exponer públicamente contraseñas, documentos de identidad, números de teléfono, direcciones particulares, tokens de acceso, claves de API, información médica ni ningún dato sensible de la comunidad. Incluso dentro del sistema, las contraseñas deben almacenarse únicamente como hash (nunca en texto plano) para minimizar el riesgo en caso de una filtración de datos.

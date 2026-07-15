@@ -1,0 +1,30 @@
+Descripción de interfaz básica - Semana 11
+============================================
+
+La interfaz de la plataforma comunitaria estaría organizada de la siguiente manera:
+
+1. Formulario para crear una causa:
+   - Campos: título (texto), descripción (área de texto), fecha (selector de fecha, opcional)
+   - Botón: "Crear causa" para enviar el formulario
+   - Validación: el título es obligatorio; si falta, se muestra un mensaje de error.
+
+2. Lista de causas disponibles:
+   - Muestra todas las causas activas ordenadas por fecha de creación (más recientes primero).
+   - Cada causa se muestra como una tarjeta con título, descripción corta y fecha.
+   - Al hacer clic en una causa, se expande para mostrar la descripción completa.
+
+3. Botón para apoyar una causa:
+   - Cada tarjeta de causa incluye un botón "Apoyar esta causa".
+   - Al hacer clic, se registra el apoyo del usuario actual a esa causa.
+   - Un usuario solo puede apoyar una vez por causa (se valida en el servidor).
+
+4. Contador de apoyos:
+   - Cada tarjeta muestra el número total de apoyos que ha recibido la causa.
+   - Se actualiza automáticamente cuando un usuario nuevo apoya la causa.
+
+5. Sección de inicio de sesión:
+   - Formulario de login con campos para correo electrónico y contraseña.
+   - Botón "Iniciar sesión" y enlace "Registrarse" para nuevos usuarios.
+   - Después del login, se muestra el nombre del usuario y un botón de cerrar sesión.
+
+La interfaz debe ser clara, sencilla y accesible. No debe mostrar información privada de los usuarios como correos electrónicos completos o contraseñas. Los mensajes de error deben ser informativos pero sin revelar detalles internos del sistema.

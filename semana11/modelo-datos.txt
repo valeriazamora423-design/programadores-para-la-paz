@@ -1,0 +1,30 @@
+Modelo de datos para plataforma comunitaria - Semana 11
+========================================================
+
+Entidad: Causa
+Campos principales:
+  - id (entero, clave primaria, autoincremental)
+  - titulo (texto, obligatorio)
+  - descripcion (texto largo, opcional)
+  - fecha_creacion (fecha, valor por defecto: fecha actual)
+  - estado (texto, valores: activa, cerrada)
+  - creador_id (entero, clave foránea -> Usuario.id)
+Propósito: Guardar las causas comunitarias que serán visibles en la plataforma para que los ciudadanos puedan conocerlas y apoyarlas.
+
+Entidad: Apoyo
+Campos principales:
+  - id (entero, clave primaria, autoincremental)
+  - causa_id (entero, clave foránea -> Causa.id, obligatorio)
+  - usuario_id (entero, clave foránea -> Usuario.id, obligatorio)
+  - fecha_apoyo (fecha, valor por defecto: fecha actual)
+Propósito: Registrar los apoyos que recibe cada causa, permitiendo hacer seguimiento a la participación ciudadana y contar cuántas personas respaldan cada iniciativa.
+
+Entidad: Usuario
+Campos principales:
+  - id (entero, clave primaria, autoincremental)
+  - nombre_usuario (texto, único, obligatorio)
+  - correo (texto, único, obligatorio)
+  - contrasena_hash (texto, obligatorio - almacenar solo hash, nunca texto plano)
+  - rol (texto, valores: ciudadano, coordinador, administrador)
+  - fecha_registro (fecha, valor por defecto: fecha actual)
+Propósito: Almacenar la información de los usuarios registrados en la plataforma para gestionar autenticación y control de acceso.
