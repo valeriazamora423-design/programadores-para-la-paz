@@ -1,0 +1,24 @@
+Diseño de automatización con n8n y Telegram - Semana 10
+=========================================================
+
+¿Qué evento activa el flujo?
+- El evento que activa el flujo es el registro de un nuevo reporte o incidencia comunitaria en la plataforma. Cuando un ciudadano completa el formulario de reporte y lo envía, se genera un nuevo registro en la base de datos.
+
+¿Qué mensaje se enviaría a Telegram?
+- El mensaje enviado al grupo de Telegram de coordinadores sería:
+  "Nuevo reporte recibido. ID: #[número]. Categoría: [tipo]. Revisar el sistema para más detalles."
+
+¿Qué información no debería enviarse por seguridad?
+- No debe enviarse por Telegram:
+  * Nombres completos del ciudadano que reporta.
+  * Números de documento de identidad.
+  * Direcciones exactas o coordenadas precisas.
+  * Números de teléfono.
+  * Contraseñas, tokens de acceso o claves de API.
+  * Información sensible o datos personales protegidos por ley.
+
+Ejemplo de flujo en n8n:
+1. Webhook recibe datos del formulario de reporte.
+2. Se almacena el reporte en la base de datos (por ejemplo, SQLite o similar).
+3. Se envía un mensaje de notificación al grupo de Telegram con información no sensible.
+4. Se actualiza el estado del reporte a "pendiente" en el sistema.

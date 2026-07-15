@@ -1,0 +1,13 @@
+Backlog de solución comunitaria - Semana 10
+============================================
+Historias de usuario ordenadas de mayor a menor prioridad:
+
+1. Como ciudadano quiero registrar una incidencia comunitaria para dejar evidencia del caso y que pueda ser revisada por los coordinadores.
+
+2. Como coordinador quiero recibir una alerta en Telegram cuando se registre un nuevo reporte para poder dar seguimiento oportuno.
+
+3. Como miembro del equipo quiero consultar la lista de reportes registrados para hacer seguimiento al estado de cada caso.
+
+4. Como ciudadano quiero adjuntar una foto o documento al reporte para aportar evidencia visual de la situación reportada.
+
+5. Como administrador quiero asignar un estado a cada reporte (pendiente, en revisión, resuelto) para mantener la trazabilidad del proceso.

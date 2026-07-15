@@ -1,0 +1,19 @@
+Definición de iteración - Semana 10
+======================================
+
+1. ¿Qué 2 tareas del backlog harías primero?
+   - Tarea 1: Implementar el registro de incidencias comunitarias (historia de usuario #1).
+   - Tarea 2: Implementar la notificación por Telegram al registrar un nuevo reporte (historia de usuario #2).
+
+2. ¿Por qué son las más importantes?
+   - El registro de incidencias es la funcionalidad base del sistema; sin ella no hay datos que gestionar ni reportes que revisar.
+   - La notificación por Telegram permite que los coordinadores reciban alertas en tiempo real, lo cual es esencial para la capacidad de respuesta de la comunidad.
+   - Estas dos tareas cubren el flujo mínimo viable: un ciudadano reporta y un coordinador se entera.
+
+3. ¿Qué significa para ti que una tarea esté "terminada"?
+   Definición simple de terminado (DoD - Definition of Done):
+   - La funcionalidad implementada funciona correctamente en el entorno de desarrollo.
+   - Fue probada con al menos un caso de prueba positivo y uno negativo.
+   - El código quedó registrado en Git con un mensaje descriptivo.
+   - No contiene datos sensibles, contraseñas ni tokens expuestos.
+   - La documentación básica de uso fue actualizada si aplica.
