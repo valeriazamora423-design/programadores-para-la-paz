@@ -1,0 +1,19 @@
+Preguntas de selección múltiple - Semana 12
+=============================================
+Módulo 6: Arquitectura, seguridad, testing y documento técnico
+
+Pregunta 1:
+¿Qué es la arquitectura de software?
+Respuesta: La estructura organizada de componentes de un sistema y sus relaciones.
+
+Pregunta 2:
+¿Qué prueba verifica que una función individual funciona correctamente?
+Respuesta: Prueba unitaria.
+
+Pregunta 3:
+¿Para qué sirve HTTPS?
+Respuesta: Para cifrar la comunicación entre el navegador y el servidor.
+
+Pregunta 4:
+¿Qué es la autenticación de dos factores (2FA)?
+Respuesta: Un método que requiere dos formas de verificación para acceder.

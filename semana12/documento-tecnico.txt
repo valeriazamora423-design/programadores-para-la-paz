@@ -1,0 +1,48 @@
+Documento técnico breve - Semana 12
+======================================
+
+Plataforma Comunitaria - Documento Técnico
+Versión 1.0
+
+1. Resumen del proyecto
+   Aplicación web para la gestión de causas comunitarias que permite a los
+   ciudadanos crear, visualizar y apoyar iniciativas ciudadanas. Incluye
+   autenticación de usuarios y notificaciones automatizadas.
+
+2. Tecnologías utilizadas
+   - Frontend: HTML5, CSS3, JavaScript
+   - Backend: Node.js con Express
+   - Base de datos: SQLite
+   - Autenticación: JWT + bcrypt
+   - Automatización: n8n + Telegram
+   - Control de versiones: Git + GitHub
+
+3. Requisitos del sistema
+   - Node.js v16 o superior
+   - npm
+   - Git
+   - Navegador web moderno
+
+4. Instalación
+   git clone [url-del-repositorio]
+   cd plataforma-comunitaria
+   npm install
+   npm start
+
+5. Endpoints principales
+   GET  /api/causas       - Listar causas
+   POST /api/causas       - Crear causa (requiere autenticación)
+   POST /api/causas/:id/apoyar - Apoyar causa (requiere autenticación)
+   POST /api/auth/login   - Iniciar sesión
+   POST /api/auth/register - Registrar usuario
+
+6. Seguridad
+   - Contraseñas hasheadas con bcrypt
+   - Tokens JWT con expiración
+   - HTTPS obligatorio en producción
+   - Validación de datos en servidor
+   - Consultas parametrizadas para prevenir inyección SQL
+
+7. Pruebas
+   - Pruebas unitarias con Jest
+   - Pruebas de integración de API

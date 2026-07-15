@@ -1,0 +1,39 @@
+Descripción de la arquitectura - Semana 12
+============================================
+
+Arquitectura general de la plataforma comunitaria:
+
+La plataforma estaría compuesta por tres capas principales:
+
+1. Capa de presentación (Frontend):
+   - HTML, CSS y JavaScript para la interfaz de usuario.
+   - Las vistas incluyen: formulario de registro de causas, lista de causas,
+     detalle de causa con apoyo, panel de administración, login y registro.
+   - Se comunica con el backend mediante peticiones HTTP (fetch/axios).
+
+2. Capa de lógica de negocio (Backend):
+   - Node.js con Express para manejar las rutas y controladores.
+   - Endpoints API RESTful:
+     - GET /api/causas - Listar causas
+     - POST /api/causas - Crear causa
+     - POST /api/causas/:id/apoyar - Apoyar una causa
+     - POST /api/auth/login - Iniciar sesión
+     - POST /api/auth/register - Registrar usuario
+   - Middleware de autenticación usando JWT (JSON Web Tokens).
+   - Validación de datos en el servidor antes de procesar.
+
+3. Capa de datos (Base de datos):
+   - SQLite o PostgreSQL para almacenar la información.
+   - Tablas: usuarios, causas, apoyos.
+   - Las contraseñas se almacenan como hash (bcrypt).
+
+Diagrama de flujo:
+  Usuario -> Navegador -> Frontend (HTML/CSS/JS) -> 
+  API HTTP -> Backend (Node.js/Express) -> 
+  Middleware (Autenticación JWT) -> 
+  Controladores -> Modelos -> Base de datos
+
+La comunicación entre el frontend y el backend debe usar HTTPS para 
+cifrar los datos en tránsito. El servidor debe estar configurado con 
+cabeceras de seguridad como Content-Security-Policy, X-Frame-Options 
+y Strict-Transport-Security.

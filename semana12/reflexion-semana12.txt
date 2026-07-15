@@ -1,0 +1,12 @@
+Reflexión - Semana 12
+=======================
+
+¿Por qué es importante documentar técnicamente una plataforma digital y considerar aspectos de seguridad y calidad desde el inicio del proyecto?
+
+Documentar técnicamente una plataforma no es un paso opcional; es una necesidad para garantizar que cualquier persona —ya sea un desarrollador nuevo, un administrador de sistemas o un miembro de la comunidad— pueda entender cómo funciona el sistema, cómo desplegarlo y cómo mantenerlo. Sin documentación, el conocimiento queda atrapado en la mente de quienes construyeron el sistema, lo que dificulta la colaboración y la continuidad del proyecto.
+
+La seguridad no puede ser un añadido tardío. Cuando se trabaja con datos de una comunidad, la confianza es el recurso más valioso. Una filtración de datos o un acceso no autorizado puede destruir la credibilidad de la plataforma y poner en riesgo a los ciudadanos que participan en ella. Por eso, medidas como el cifrado HTTPS, el hash de contraseñas, la autenticación de dos factores y la validación de datos deben estar presentes desde el primer día.
+
+La calidad del software, asegurada mediante pruebas, garantiza que el sistema funcione como se espera y que los cambios futuros no rompan funcionalidades existentes. En una plataforma comunitaria, un error podría significar que un reporte se pierda o que un apoyo no se registre, afectando la participación ciudadana.
+
+En conclusión, una plataforma digital para la participación ciudadana no solo debe funcionar bien, sino que debe estar documentada para ser sostenible, protegida para ser confiable y probada para ser robusta. Estos tres pilares —documentación, seguridad y calidad— son la base de cualquier proyecto tecnológico responsable.

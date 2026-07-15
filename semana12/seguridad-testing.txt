@@ -1,0 +1,39 @@
+Medidas de seguridad y testing - Semana 12
+============================================
+
+Medidas de seguridad:
+
+1. Autenticación segura:
+   - Las contraseñas se almacenan como hash utilizando bcrypt.
+   - Se implementa autenticación basada en JWT con expiración de tokens.
+   - Las sesiones expiran después de un período de inactividad.
+
+2. Protección de datos en tránsito:
+   - Toda la comunicación entre cliente y servidor debe usar HTTPS.
+   - Los certificados SSL/TLS deben estar correctamente configurados.
+
+3. Validación y sanitización:
+   - Todos los datos de entrada deben validarse tanto en frontend como en backend.
+   - Se deben prevenir ataques de inyección SQL usando consultas parametrizadas.
+   - Protección contra XSS escapando la salida de datos.
+
+4. Control de acceso:
+   - Las rutas administrativas requieren autenticación y rol adecuado.
+   - Los usuarios solo pueden modificar sus propios datos.
+
+Pruebas (Testing):
+
+1. Pruebas unitarias:
+   - Verificar que funciones individuales como validación de email,
+     hash de contraseñas y formato de fechas funcionan correctamente.
+   - Herramientas: Jest o Mocha.
+
+2. Pruebas de integración:
+   - Verificar que los endpoints de la API responden correctamente.
+   - Probar el flujo completo: registro -> login -> crear causa -> apoyar.
+   - Verificar que las rutas protegidas rechacen peticiones no autenticadas.
+
+3. Pruebas de seguridad:
+   - Verificar que no se puedan inyectar scripts en los formularios.
+   - Verificar que los tokens JWT caducados sean rechazados.
+   - Verificar que los roles tengan los permisos adecuados.
